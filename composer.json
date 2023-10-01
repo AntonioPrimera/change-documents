@@ -1,0 +1,36 @@
+{
+    "name": "antonioprimera/change-documents",
+    "description": "Change documents provide a means to record a change history for Eloquent Models.",
+    "license": "MIT",
+    "version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+            "AntonioPrimera\\ChangeDocuments\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "AntonioPrimera\\ChangeDocuments\\Tests\\": "tests/"
+        }
+    },
+
+    "authors": [
+        {
+            "name": "Antonio Primera",
+            "email": "antonio@cus.ro"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.0",
+        "illuminate/support": "^10.0",
+        "illuminate/database": "^10.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AntonioPrimera\\ChangeDocuments\\ChangeDocumentsServiceProvider"
+            ]
+        }
+    }
+}
